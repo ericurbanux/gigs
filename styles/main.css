@@ -22,7 +22,7 @@
 
 .eventCard {
     display: inline-block;
-    margin-bottom: 2em;
+    margin-bottom: 2em;    
 }
 
 @media (min-width: 44em) {
@@ -32,13 +32,12 @@
     }
 }
 
-.eventCardSet{
-  /* Not really working right
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    */
+.budgetImage {
+    width: 80%;
+
 }
+
+
 
 .footerSection {
     background-color: #ccc;
@@ -178,6 +177,10 @@ a, a:hover {
 .btn-outline-primary {
     border-color: #000;
     color: #000;
+}
+
+.halfSize {
+    width: 50%;
 }
 
 

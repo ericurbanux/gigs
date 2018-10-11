@@ -22,7 +22,9 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light navColor">
-        <a class="navbar-brand" href="index.html"><img src="images/gigglylogo.png" class="logoSize"></a>
+        <a class="navbar-brand" href="index.html">
+            <img src="images/gigglylogo.png" class="logoSize">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,7 +60,17 @@
         </h1>
         <p class="lead">Thanks for checking out this section. We'll be getting to this soon...</p>
 
-        <p class="lead">[Insert handraiser form]</p>
+        <p class="lead">If you send us your email, we'll reach out to you when we have everything together.</p>
+
+        <form class="halfSize">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+          
+            <button type="submit" class="btn btn-primary" onclick="alert('Sorry, this doesn\'t actually work either...');">Submit</button>
+        </form>
     </div>
 
     <!-- ****************************** End Main Content Area *************************************-->
