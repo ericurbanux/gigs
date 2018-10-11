@@ -1,8 +1,15 @@
 
 @font-face
 {
-    font-family: brushup;
-    src: url('BrushUp.ttf')/*,
+    font-family: gigBlack;
+    src: url('CircularStd-Black.otf')/*,
+    url('myFancyFont.eot');*/
+}
+
+@font-face
+{
+    font-family: gigBook;
+    src: url('CircularStd-Book.otf')/*,
     url('myFancyFont.eot');*/
 }
 
@@ -148,17 +155,47 @@
    width: 100%;
 }
 
+.logoSize {
+    width: 4em;
+}
+
+.ecosystemContainer {
+    height: 2   00em!important;
+    width:100%;
+    border: 0;
+    height: auto;
+}
+
 
 /**** Brand styles ****/
 .navColor {
     background-color: rgb(237, 200, 15)!important;
 }
 
-H1, H2 {
+BODY {
+   font-family: gigBook, arial, sans-serif;
+}
+
+H2 {
     color: #ff4d4d;
 }
 
 .navbar {
-    font-family: brushup, arial, sans-serif;
+    font-family: gigBlack, arial, sans-serif;
 }
 
+.jumbotron {
+    background: url("../images/brand_hero.png") no-repeat; 
+    background-color: #86ceef;
+
+    background-position: 600px;  
+}
+
+@media (min-width:40em) {
+    .jumbotron {
+        background: url("../images/brand_hero.png") no-repeat; 
+        background-color: #86ceef;
+
+        background-position: right;  
+    }
+}
