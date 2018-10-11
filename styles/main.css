@@ -128,3 +128,12 @@
 .taskLong {
     height: 200%;
 }
+
+
+
+/*map container */
+.mapContainer {
+   border: 0;
+   height: 40em;
+   width: 100%;
+}
