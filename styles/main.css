@@ -207,6 +207,12 @@ H2 {
 
 }
 
+@media (min-width: 30em) {
+.heroText h1 {
+    max-width: 75%;
+}
+}
+
 .jumbotron {
     background: url("../images/brand_hero.png") no-repeat; 
     background-color: #86ceef;
