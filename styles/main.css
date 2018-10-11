@@ -1,3 +1,13 @@
+
+@font-face
+{
+    font-family: brushup;
+    src: url('BrushUp.ttf')/*,
+    url('myFancyFont.eot');*/
+}
+
+
+
 .asideNote {
     font-size: 0.6em;
 
@@ -137,3 +147,18 @@
    height: 40em;
    width: 100%;
 }
+
+
+/**** Brand styles ****/
+.navColor {
+    background-color: rgb(237, 200, 15)!important;
+}
+
+H1, H2 {
+    color: #ff4d4d;
+}
+
+.navbar {
+    font-family: brushup, arial, sans-serif;
+}
+
