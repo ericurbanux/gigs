@@ -125,8 +125,15 @@
         // When the map is clicked, add a new drop-off point
         // and update the `dropoffs-symbol` layer
         newDropoff(map.unproject(e.point));
+        console.log(e.point);
         updateDropoffs(dropoffs);
       });
+
+      newDropoff(map.unproject({x: 617, y: 242}));
+      newDropoff(map.unproject({x: 600, y: 162}));
+      newDropoff(map.unproject({x: 100, y: 312}));
+      newDropoff(map.unproject({x: 300, y: 202}));
+      updateDropoffs(dropoffs);
 
       function newDropoff(coords) {
         // Store the clicked point as a new GeoJSON feature with
