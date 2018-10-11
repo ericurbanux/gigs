@@ -229,3 +229,15 @@ H2 {
         background-position: right;  
     }
 }
+
+
+.lightContainer {
+    background-color: #ef3264;
+    width: 100%;
+
+}
+
+.lightImage {
+    height: 20em;
+    width: auto;
+}
