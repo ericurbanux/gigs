@@ -166,6 +166,20 @@
     height: auto;
 }
 
+.bigLink {
+    color: #000;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-outline-primary {
+    border-color: #000;
+    color: #000;
+}
+
 
 /**** Brand styles ****/
 .navColor {
@@ -182,6 +196,12 @@ H2 {
 
 .navbar {
     font-family: gigBlack, arial, sans-serif;
+}
+
+.btnGetStarted {
+    background-color: #ff4d4d;
+    color: white;
+
 }
 
 .jumbotron {
