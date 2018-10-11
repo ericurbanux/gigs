@@ -1,0 +1,130 @@
+.asideNote {
+    font-size: 0.6em;
+
+}
+
+.eventCard {
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+@media (min-width: 44em) {
+    .eventCard {
+        margin-right: 2em;
+        max-width: 18em;
+    }
+}
+
+.eventCardSet{
+  /* Not really working right
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    */
+}
+
+.footerSection {
+    background-color: #ccc;
+    margin-top: 5em;
+    padding: 4em 0;
+    text-align: center;
+
+}
+
+.logoImage {
+    display: block;
+}
+
+.primeTime {
+    font-size: 0.75em;
+    margin-left: 0.25em;
+}
+
+.wireframeBlock {
+    border: 1px solid #ccc;
+    background-color: #aaa;
+    padding: 3em 0;
+    text-align: center;
+
+}
+
+/***** Overrides *****/
+.nav.nav-pills {
+    margin: 2em 0 1em 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #999;
+}
+
+
+/*Calendar Stuff*/
+.calendarContainer {
+    margin: auto;
+    position: relative;
+    width:80%;
+}
+
+.hourRow {
+    display: flex;
+}
+
+.hourLabel, .hourSlot {
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+}
+
+.hourLabel {    
+    padding: 1em 0;
+    min-width: 4em;
+}
+
+.hourSlot {
+    
+    position: relative;
+    width:90%;
+}
+
+.task {
+    align-content: center;
+    color: #fff;
+    margin-left: 1em;
+    padding-left: 1em;
+    
+    position: absolute;
+    width: 80%;
+}
+
+
+.taskrabbit {
+    background-image: linear-gradient(#6e9775, #325938);
+    border: 1px solid #325938;
+}
+
+.takl {
+    background-image: linear-gradient(#836e55, #594732);
+    border: 1px solid #836e55;
+}
+
+.stunt {
+    background-image: linear-gradient(#999775, #995938);
+    border: 1px solid #995938;
+}
+
+.freeTime {
+    background-image: linear-gradient(#fff, #ccc);
+    border: 1px solid #0f0fb9;
+    color: #000;
+}
+
+.uber {
+    background-image: linear-gradient(#4a4a80, #1c1c3a);
+    border: 1px solid #4a4a80;
+}
+
+.taskHour {
+    height: 100%;
+}
+
+.taskLong {
+    height: 200%;
+}
